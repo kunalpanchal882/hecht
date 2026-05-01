@@ -1,0 +1,184 @@
+.number_section {
+  /* max-width: 1920px; */
+  min-height: 339px;
+  padding: 80px 80px;
+  position: relative;
+}
+
+.number_section_container {
+  width: 100%;
+  max-height: 239px;
+  height: 239px;
+}
+
+.number_section_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.analysis_number {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  opacity: 0.9;
+  z-index: 7;
+  padding: 80px 240px;
+  background: var(--primary-dark-color);
+  width: 100%;
+  gap: 60px;
+}
+.analysis_number_container {
+  width: 100%;
+  /* max-width: 1320px; */
+  max-height: 79px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  gap: 24px;
+}
+
+.number_container_line{
+    width: 2px;
+    height: 100px;
+    opacity: 0.6;
+    background-color: var(--secondary-text-color);
+}
+
+.analysis_single_number {
+  max-width: 240px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.analysis_single_number h4 {
+  color: var(--button_bg-color);
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.analysis_single_number p {
+  color: var(--secondary-text-color);
+  font-size: var(--primary-para-font-size);
+  font-weight: 700;
+  line-height: var(--primary-para-font-line-height);
+}
+
+
+
+/* RESPONSIVENESS */
+
+
+@media (max-width: 1650px) {
+  .analysis_single_number {
+    max-width: 171px;
+  }
+}
+
+@media (max-width: 1472px) {
+  .analysis_number {
+    padding: 80px 168px;
+  }
+}
+
+@media (max-width: 1356px) {
+  .analysis_number {
+    padding: 80px 100px;
+  }
+}
+
+@media (max-width: 1210px) {
+  .analysis_number {
+    padding: 80px 70px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .analysis_number {
+    padding: 80px 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .analysis_number {
+    padding: 58px 22px;
+    top: 56px;
+  }
+  .analysis_single_number {
+    gap: 10px;
+  }
+
+  .number_section {
+    padding: 57px 0px;
+  }
+
+  .number_section_container {
+    width: 100%;
+    max-height: 194px;
+    height: 239px;
+  }
+
+  .analysis_single_number h4 {
+    font-size: 29px;
+  }
+
+  .number_section_container {
+    width: 100%;
+    max-height: 187px;
+    height: 239px;
+  }
+}
+
+@media (max-width: 894px) {
+  .number_section {
+    padding: 50px 0px;
+  }
+  .analysis_number {
+    top: 49px;
+  }
+
+  .analysis_single_number p {
+    font-size: 15px;
+  }
+  .number_section_container {
+    width: 100%;
+    max-height: 180px;
+    height: 239px;
+  }
+  .analysis_single_number {
+    max-width: 142px;
+  }
+}
+
+@media (max-width: 800px) {
+  .analysis_single_number h4 {
+    font-size: 26px;
+  }
+  .analysis_number {
+    padding: 38px 15px;
+    top: 35px;
+  }
+
+  .number_section {
+    padding: 37px 0px;
+  }
+
+  .analysis_single_number p {
+    font-size: 14px;
+  }
+
+  .number_section_container {
+    width: 100%;
+    max-height: 135px;
+    height: 239px;
+  }
+}
+
+@media (max-width: 730pxpx) {
+  .number_section {
+    min-height: 127px;
+  }
+}
