@@ -25,7 +25,7 @@ const About = () => {
       </div>
       <div className={style.aboutUS_Conatiner}>
         <div className={style.about_container_text}>
-          <h4>ABOUT US</h4>
+          <h4 className="second_subheadig">ABOUT US</h4>
           <h2 className="second_heading">
             Experience the Uniqueness of Customized{" "}
             <span className="contact_lence">Contact Lenses</span>{" "}
@@ -56,7 +56,7 @@ const About = () => {
             </p>
             <div className={style.about_learn_more}>
               <p>Learn More</p>
-              <i className="ri-arrow-right-long-line"></i>
+              <i className={`ri-arrow-right-long-line ${style.arrow}`}></i>
             </div>
           </div>
 
@@ -76,7 +76,7 @@ const About = () => {
             </p>
             <div className={style.about_learn_more}>
               <p>Learn More</p>
-              <i className="ri-arrow-right-long-line"></i>
+               <i className={`ri-arrow-right-long-line ${style.arrow}`}></i>
             </div>
           </div>
 
@@ -96,7 +96,7 @@ const About = () => {
             </p>
             <div className={style.about_learn_more}>
               <p>Learn More</p>
-              <i className="ri-arrow-right-long-line"></i>
+               <i className={`ri-arrow-right-long-line ${style.arrow}`}></i>
             </div>
           </div>
 
@@ -116,27 +116,27 @@ const About = () => {
             </p>
             <div className={style.about_learn_more}>
               <p>Learn More</p>
-              <i className="ri-arrow-right-long-line learn_arrow"></i>
+               <i className={`ri-arrow-right-long-line ${style.arrow}`}></i>
             </div>
           </div>
         </div>
       </div>
 
         {/* duplicate dic for responsive design  */}
-      <div className={style.about_empityContainer_2}></div>
+     
 
-      <div className={style.about_conatiner_image_2}>
+      {/* <div className={style.about_conatiner_image_2}>
         <Image
           src="/image/about-2.png"
           width={705}
           height={894}
           alt="about image"
         />
-      </div>
+      </div> */}
 
       <div className={style.aboutUS_Conatiner_2}>
         <div className={style.about_container_text_2}>
-          <h4>ABOUT US</h4>
+          <h4 className="second_subheadig">ABOUT US</h4>
 
           <h2 className="second_heading">
             Experience the Uniqueness of Customized
@@ -152,6 +152,7 @@ const About = () => {
         </div>
 
         <div className={style.about_card_2}>
+
           <div className={style.about_single_card_2}>
             <div className={style.aboutUS_icons_2}>
               <Image
@@ -171,9 +172,9 @@ const About = () => {
 
             <div className={style.about_learn_more_2}>
               <p>Learn More</p>
-              <i className="ri-arrow-right-long-line"></i>
+              <i className={`ri-arrow-right-long-line ${style.arrow}`}></i>
             </div>
-          </div>
+          </div> 
 
           <div className={style.about_single_card_2}>
             <div className={style.aboutUS_icons_2}>
@@ -194,7 +195,7 @@ const About = () => {
 
             <div className={style.about_learn_more_2}>
               <p>Learn More</p>
-              <i className="ri-arrow-right-long-line"></i>
+              <i className={`ri-arrow-right-long-line ${style.arrow}`}></i>
             </div>
           </div>
 
@@ -217,7 +218,7 @@ const About = () => {
 
             <div className={style.about_learn_more_2}>
               <p>Learn More</p>
-              <i className="ri-arrow-right-long-line"></i>
+              <i className={`ri-arrow-right-long-line ${style.arrow}`}></i>
             </div>
           </div>
 
@@ -240,10 +241,22 @@ const About = () => {
 
             <div className={style.about_learn_more_2}>
               <p>Learn More</p>
-              <i className="ri-arrow-right-long-line learn_arrow"></i>
+              <i className={`ri-arrow-right-long-line ${style.arrow}`}></i>
             </div>
           </div>
+
         </div>
+
+        <div className={style.about_conatiner_image_2}>
+        <Image
+          src="/image/about-2.png"
+          width={705}
+          height={894}
+          alt="about image"
+        />
+      </div>
+
+       <div className={style.about_empityContainer_2}></div>
       </div>
       {/* </main> */}
     </div>

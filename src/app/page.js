@@ -1,4 +1,5 @@
 import About from '@/components/About'
+import Customized from '@/components/Customized'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import NumberSection from '@/components/NumberSection'
@@ -11,6 +12,7 @@ const page = () => {
       <Hero/>
       <NumberSection/>
       <About/>
+      <Customized/>
     </div>
   )
 }

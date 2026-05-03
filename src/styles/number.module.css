@@ -177,8 +177,27 @@
   }
 }
 
-@media (max-width: 730pxpx) {
-  .number_section {
-    min-height: 127px;
-  }
+@media (max-width: 730px) {
+    .analysis_number_container {
+    grid-template-columns: repeat(2, 1fr);
 }
+
+.number_container_line{
+   display: none;
+}
+
+
+.analysis_number {
+    max-height: 270px;
+    height: 100%;
+}
+
+    .number_section_container {
+        width: 100%;
+        height: 277px;
+        max-height: 270px;
+    }
+
+}
+
+

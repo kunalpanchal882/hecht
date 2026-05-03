@@ -1,0 +1,129 @@
+.CustomizedSection{
+    width: 100%;
+    /* padding: 0 120px; */
+}
+
+.CustomizedContainer{
+    max-width: 1600px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin: 0 auto;
+}
+
+.Customized_text_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Customized_text_left_container{
+    max-width: 688px;
+    display: flex;
+    flex-direction: column;
+    gap:24px
+}
+
+.Customized_text_right_container{
+    max-width: 655px;
+}
+
+.Customized_card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Customized_images_card{
+    position: relative;
+    z-index: 1;
+    width: 513px;
+    height: 705px;
+   overflow: hidden;
+   cursor: pointer;
+   border-radius: 32px;
+}
+
+
+.card_img{
+    object-fit: cover;
+    overflow: hidden;
+    transform: scale(1);
+    transition: transform 0.8s cubic-bezier(0.22,1,0.36,1);
+     /* border-radius: inherit; */
+    /* will-change: transform; */
+    /* backface-visibility: hidden; */
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+}
+
+.Customized_images_card:hover .card_img{
+   transform: scale(1.08);
+}
+
+.arrow{
+    font-size: 23.23px;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+    color: var(--secondary-text-color)    
+}
+
+.Customized_images_card:hover .arrow{
+   transform: rotate(-90deg);
+}
+
+.Customized_arrow_icons{
+    z-index: 3;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid #FFFFFF;
+}
+
+.card_heading{
+    position: absolute;
+    bottom: 0;
+    border-radius: 24px;
+    max-height: 231px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+     transition: transform 0.3s ease-in;
+     /* background: rgba(0, 0, 0, 0.658); */
+    backdrop-filter: blur(40px);
+    background: rgba(255,255,255,0.60);
+}
+
+.card_heading.active{
+    background: rgba(0, 0, 0, 0.658);
+    backdrop-filter: blur(40px);
+}
+
+.card_heading h3{
+    display: flex;
+    flex-direction: column;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 130%;
+    transition: transform 0.3s ease-in;
+    color: var(--primary-dark-color);
+}
+
+.Customized_images_card:hover .card_heading{
+    background: rgba(0,0,0,0.58);
+    backdrop-filter: blur(40px);
+}
+
+.Customized_images_card:hover .card_heading h3,
+.Customized_images_card:hover .card_heading p{
+    color: #ffffff;
+}
