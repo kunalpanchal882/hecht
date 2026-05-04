@@ -1,0 +1,151 @@
+.customer_section{
+    width: 100%;
+    padding: 80px 0;
+}
+
+.customer_inner_section{
+    width: 100%;
+    background-color: #E8EBE4;
+    padding: 80px 160px;
+    min-height: 946px;
+    height: 100%;
+   
+}
+
+.customer_container{
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%; 
+     position: relative;
+}
+
+.heading_Conatainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading_left_Conatainer{
+    max-width: 629px;
+    width: 100%;
+    border-radius: 24px;
+}
+
+.heading_right_Conatainer{
+    margin-top: 10px;
+    max-width: 863px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heading_left_Conatainer_image{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* SLIDER */
+.sliderWrapper{
+    max-width: 1458px;
+    width: 100%;
+    position: absolute;
+    top: 352px;
+    right: -10%;
+    overflow: hidden;
+}
+
+.slider{
+    max-width: 1458px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    transition: transform 0.7s ease;
+     animation: scrollSlider 18s linear infinite;
+}
+
+.card{
+    max-width: 466px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 16px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+     background: rgba(255, 255, 255, 0.199);
+   backdrop-filter: blur(12px);
+   /* -webkit-backdrop-filter: blur(25px); */
+
+   border: 3px solid rgba(161, 161, 161, 0.123);
+   box-shadow: 0 8px 30px rgba(0,0,0,.08);
+}
+
+.card p{
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 500;
+    color: #555555;
+}
+
+.stars{
+    color: #F1C40F;
+    font-size: 24px;
+}
+
+.profilename{
+    display: flex;
+    gap: 20px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar_bio{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.avatar_bio  h4{
+    font-size: 24px;
+    letter-spacing: 0.18px;
+    line-height: 24px;
+}
+.avatar_bio  span{
+    font-size: 16px;
+    letter-spacing: 0.18px;
+    line-height: 24px;
+    color: #555555;
+}
+
+/* DOTES */
+.dots{
+     position: absolute;
+    top: 720px;
+    right: 0;
+    max-width: 1438px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.dots span {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  display: inline-block;
+  margin: 0 6px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.dots .active {
+  background: #0f6c78;
+}

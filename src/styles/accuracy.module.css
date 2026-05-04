@@ -1,0 +1,62 @@
+.Accuracy_section{
+    width: 100%;
+    padding: 80px 160px;
+}
+
+.Accuracy_container{
+    margin: 0 auto;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.Accuracy_upper_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Accuracy_upper_left_container{
+    max-width: 668px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.Accuracy_upper_right_container{
+    max-width: 594px;
+    max-height: 100px;
+}
+
+.Accuracy_lower_container{
+    position: relative;
+}
+
+.Accuracy_percentage_wrapper{
+    display: flex;
+    gap: 24px;
+    position: absolute;
+    top: -119px;
+    right: 62px;
+}
+
+.Accuracy_percentage_contaienr{
+    top: 0;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 12px;
+    max-width: 309px;
+  background: rgba(255, 255, 255, 0.199);
+   backdrop-filter: blur(12px);
+   /* -webkit-backdrop-filter: blur(25px); */
+
+   border: 3px solid rgba(161, 161, 161, 0.123);
+   box-shadow: 0 8px 30px rgba(0,0,0,.08);
+}
+
+.Accuracy_percentage_heading{
+    color: var(--primary-dark-color);
+}

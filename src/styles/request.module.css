@@ -1,0 +1,97 @@
+.request_section{
+    padding: 80px 0;
+}
+
+.request_container{
+    position: relative;
+    padding-top: 80px;
+    max-width: 1920px;
+    max-height: 959px;
+}
+
+.mapContainer{
+    width: 100%;
+
+}
+
+.mapImage{
+    width: 100%;
+}
+.submitRequest {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1271px;
+    width: 100%;
+    max-height: 497px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Reduced gap to match image spacing */
+    padding: 40px;
+    overflow: hidden;
+    
+    /* Glassmorphism Effect */
+    /* Remove the duplicate background-color you had; use only this one */
+    background: rgba(255, 255, 255, 0.4); 
+    backdrop-filter: blur(8px); 
+    /* -webkit-backdrop-filter: blur(10px); */
+    
+    /* Border and Highlights */
+    border: 1px solid rgba(255, 255, 255, 0.5); 
+    border-radius: 20px; /* Slightly more rounded to match image */
+    
+    /* Matching the soft shadow in the image */
+    /* Changed from inset to drop-shadow style for that "floating" look */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+}
+
+.form {
+    width: 100%;
+    max-width: 1171px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Tighter gap for form elements */
+    align-items: center; /* Center content like in screenshot */
+}
+
+.form_Heading {
+    width: 100%;
+    font-size: 48px; /* Adjusted to fit common heading sizes */
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1a535c; /* Replaced variable with the dark teal from image */
+    /* margin-bottom: 10px; */
+    text-align: center;
+}
+
+.name {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.name input, 
+.textarea {
+    border: none;
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+}
+
+/* Ensure inputs take up proper space */
+.name input {
+    width: 100%;
+    flex: 1;
+    /* max-width: 300px; */
+}
+
+.textarea {
+    width: 100%; /* Keeps the textarea aligned with input rows */
+    min-height: 150px;
+}

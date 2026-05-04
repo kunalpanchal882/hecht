@@ -1,0 +1,124 @@
+.Precision_container{
+    display: flex;
+    max-width: 1588px;
+    padding:80px 0;
+    gap: 90px;
+    margin: 0 auto;
+}
+
+.Precision_left_container{
+      position: relative;
+}
+
+.Precision_image{
+    z-index: 5;
+    object-fit: cover;
+    /* z-index: 5; */
+}
+
+
+.Precision_right_container{
+    max-width: 713px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: auto 0;
+}
+
+.Precision_empity_container{
+    z-index: -1;
+    position: absolute;
+    top: -34px;
+    left: -34px;
+    max-width: 380px;
+    width: 100%;
+    height: 380px;
+    border-radius: 32px;
+    background: var(--primary-heading-color);
+}
+
+.Precision_health_certificate_container{
+        max-width: 254px;
+    /* height: 293px; */
+    border-radius: 24px;
+    position: absolute;
+    bottom: -43px;
+    left: 57px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    background-color: var(--primary-dark-color);
+}
+
+.health_icon_container{
+    /* background-color: red; */
+    position: relative;
+    max-width: 80px;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.common_arrow{
+    color: #E8EBE4;
+    font-size: 10.67px;
+    font-weight: 500;
+}
+
+.healthcare_arrow_icon_1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-45deg);
+}
+
+.healthcare_arrow_icon_2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+     transform: rotate(135deg);
+}
+
+.healthcare_arrow_icon_3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-135deg);
+}
+
+.healthcare_arrow_icon_4{
+    position: absolute;
+    top: 0;
+    right: 0;
+     transform: rotate(45deg);
+}
+
+.health_iconss_container{
+    max-width: 77.33px;
+    width: 100%;
+    max-height: 48px;
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.healthcare_icon{
+    
+     width: 100%;
+     object-fit: cover;
+}
+
+.Precision_health_certificate_container h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 130%;
+    color: #E8EBE4;
+}
+
+.health_icon_container_para{
+    color: #E8EBE4;
+}

@@ -1,0 +1,96 @@
+.Artical_section{
+    width: 100%;
+    padding: 80px 0;
+}
+
+.artical_container{
+    margin: 0 auto;
+    max-width: 1599px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.upper{
+    max-width: 1118px;
+    text-align: center;
+}
+
+.heading{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.lower{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.spanheading{
+    color: var(--primary-dark-color);
+}
+
+.cardImage{
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+}
+
+.cardCategory{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--primary-dark-color);
+}
+
+.cardTitle{
+ font-size: 34px;
+ font-weight: 700;
+ line-height: 130%;
+ color: #000000;
+}
+
+.cardIconButton{
+    border-radius: 50%;
+    width: 62.22px;
+    height: 62.22px;
+    border: 2px solid var(--primary-dark-color);
+    color: var(--primary-dark-color);
+    background: transparent;
+    cursor: pointer;
+   
+}
+
+.cardIconButton:hover .arrow{
+    transform: rotate(-45deg);
+}
+
+.arrow{
+   font-size: 24px;
+    transition: transform 0.3s ease-in;
+    display: inline-block;
+}
+
+.cardContainer{
+    overflow: hidden;
+    max-width: 513px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.image_container{
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.cardContainer:hover .cardImage{
+    transform: scale(1.08);
+}
