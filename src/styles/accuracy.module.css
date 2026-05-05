@@ -60,3 +60,111 @@
 .Accuracy_percentage_heading{
     color: var(--primary-dark-color);
 }
+
+.accuracy_image{
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:1763px) {
+    .Accuracy_section {
+    width: 100%;
+    padding: 80px 89px;
+}
+}
+
+@media (max-width:1490px) {
+    .Accuracy_upper_left_container {
+    max-width: 500px;   
+}
+
+.Accuracy_upper_right_container {
+    max-width: 509px;
+    max-height: 100px;
+}
+}
+
+@media (max-width:1176px) {
+   .Accuracy_percentage_contaienr {
+    max-width: 252px;
+    gap: 10px;
+}
+
+    .Accuracy_upper_right_container {
+        max-width: 426px;
+        max-height: 100px;
+    }
+
+}
+
+@media (max-width:1102px) {
+       .Accuracy_upper_right_container {
+        max-width: 354px;
+        max-height: 100px;
+    }
+
+}
+
+@media (max-width:1068px) {
+    .Accuracy_percentage_wrapper {
+    gap: 14px;
+    top: -76px;
+    right: 62px;
+}
+
+    .Accuracy_upper_left_container {
+        max-width: 481px;
+    }
+
+}
+
+@media (max-width:1043px) {
+    .Accuracy_upper_container {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+    .Accuracy_upper_left_container {
+        max-width: 600px;
+    }
+
+        .Accuracy_upper_right_container {
+        max-width: 100%;
+        max-height: 100px;
+    }
+        .Accuracy_percentage_wrapper {
+        gap: 14px;
+        top: -58px;
+        right: 41px;
+    }
+
+        .Accuracy_percentage_contaienr {
+        gap: 10px;
+        max-width: 233px;
+        padding: 17px;
+    }
+
+}
+
+@media (max-width:776px) {
+       .Accuracy_section {
+        width: 100%;
+        padding: 80px 57px;
+    }
+}
+
+
+@media (max-width:452px) {
+        .Accuracy_section {
+        width: 100%;
+        padding: 80px 37px;
+    }
+}
+
+
+@media (max-width:412px) {
+      
+}

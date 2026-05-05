@@ -1,11 +1,11 @@
 .Artical_section{
     width: 100%;
-    padding: 80px 0;
+    padding: 80px 160px;
 }
 
 .artical_container{
     margin: 0 auto;
-    max-width: 1599px;
+    /* max-width: 1599px; */
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -79,7 +79,7 @@
 
 .cardContainer{
     overflow: hidden;
-    max-width: 513px;
+    width: 513px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -93,4 +93,142 @@
 
 .cardContainer:hover .cardImage{
     transform: scale(1.08);
+}
+
+.reponsive_heading{
+    font-size: 28px;
+    display: none;
+}
+
+@media (max-width:1861px) {
+    .Artical_section{
+    width: 100%;
+    padding: 80px 90px;
+}
+}
+
+
+@media (max-width:1304px) {
+  .heading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.artical_container {
+    gap: 52px;
+}
+
+.cardContainer {
+    gap: 20px;
+}
+
+.cardTitle{
+    font-size: 28px;
+}
+
+}
+
+@media (max-width:1120px) {
+  .heading {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.artical_container {
+    gap: 30px;
+}
+
+.cardContainer {
+    gap: 10px;
+}
+
+.cardTitle{
+    font-size: 24px;
+}
+
+}
+
+
+@media (max-width:1000px) {
+  .lower {
+    gap: 20px;
+    flex-direction: column
+}
+
+.cardContainer {
+       width: 100%;
+       gap: 30px;
+    }
+
+}
+
+
+@media (max-width:888px) {
+      .heading {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+}
+
+@media (max-width:737px) {
+          .Artical_section {
+        padding: 60px 57px;
+    }
+
+}
+
+
+@media (max-width:670px) {
+
+    .Artical_section {
+        padding: 30px 57px;
+    }
+
+      .heading {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+}
+
+@media (max-width:737px) {
+        .heading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+        .cardContainer {
+        gap: 20px;
+    }
+
+}
+
+@media (max-width:529px) {
+        .heading {
+        font-size: 24px;
+        line-height: 30px;
+        display: none;
+    }
+
+   .reponsive_heading{
+    font-size: 28px;
+    display: block;
+    /* text-align: start; */
+}
+
+}
+
+@media (max-width:420px) {
+    
+   .reponsive_heading{
+    font-size: 19px;
+    display: block;
+    /* text-align: start; */
+}
+
 }

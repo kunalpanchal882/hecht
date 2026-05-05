@@ -13,7 +13,7 @@ const Social = () => {
     <div className={style.Social_section}>
         <div className={style.Social_container}>
             <section className={style.Social_heading_container}>
-                <h4 className={`second_subheading`}>We’re Social</h4>
+                <h4 className={`second_subheadig ${style.subheading}`}>We’re Social</h4>
                 <h2 className={`second_heading`}>instagram feed</h2>
             </section>
 
@@ -33,7 +33,7 @@ const Social = () => {
                 <div className={`${style.imgaeCard} ${style.wide}`}>
                     <Image src={socialImage5} alt='socail image 1' className={`${style.images} ${style.image}`}/>
                 </div>
-                <div className={`${style.imgaeCard} ${style.small}`}>
+                <div className={`${style.imgaeCard} ${style.small} ${style.reponsive_small}`}>
                     <Image src={socialImage6} alt='socail image 1' className={`${style.images} ${style.image}`}/>
                 </div>
             </section>

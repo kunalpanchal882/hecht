@@ -122,3 +122,114 @@
 .health_icon_container_para{
     color: #E8EBE4;
 }
+
+@media (max-width:1691px) {
+    .Precision_container {
+    gap: 90px;
+    max-width: 1254px;
+}
+
+.Precision_left_container {
+    position: relative;
+    width: 50%;
+    border-radius: 24px;
+}
+
+.Precision_right_container {
+    max-width: 616px;
+}
+
+.Precision_left_container img{
+    width: 100%;
+    border-radius: 24px;
+}
+
+}
+
+@media (max-width:1352px) {
+       .Precision_container {
+        gap: 35px;
+        max-width: 1206px;
+    }
+
+}
+
+@media (max-width:1324px) {
+       .Precision_container {
+        gap: 35px;
+        max-width: 1080px;
+    }
+
+  .Precision_right_container {
+    flex-direction: column;
+    gap: 33px;
+}
+}
+
+@media (max-width:1175px) {
+   .Precision_container {
+    gap: 90px;
+    max-width: 1588px;
+    margin: 0 auto;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-flow: wrap-reverse; */
+    transform: translateY(2);
+}
+
+    .Precision_left_container {
+        border-radius: 24px;
+        width: 71%;
+        position: relative;
+    }
+
+        .Precision_right_container {
+        gap: 23px;
+    }
+
+    .Precision_right_container {
+        max-width: 71%;
+    }
+}
+
+@media (max-width:871px) {
+  .Precision_left_container {
+        border-radius: 24px;
+        width: 80%;
+        position: relative;
+    }
+
+    .Precision_right_container {
+        max-width: 80%;
+    }
+}
+
+
+@media (max-width:778px) {
+  .Precision_right_container {
+        max-width: 85%;
+    }
+
+    .Precision_empity_container {
+    width: 100%;
+    max-width: 50%;
+    height: 40%;
+    top: -23px;
+    left: -23px;
+}
+}
+
+
+@media (max-width:604px) {
+  .Precision_right_container {
+        max-width: 85%;
+    }
+}
+
+@media (max-width:482px) {
+  .Precision_right_container {
+        max-width: 85%;
+    }
+}

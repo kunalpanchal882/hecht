@@ -25,6 +25,7 @@ const Accuracy = () => {
             <Image
                 src={AccuracyImage}
                 alt="accuracy image"
+                className={style.accuracy_image}
             />
             <div className={style.Accuracy_percentage_wrapper}>
                     <div className={style.Accuracy_percentage_contaienr}>

@@ -3,23 +3,26 @@
 }
 
 .request_container{
-    position: relative;
+    width: 100%;
     padding-top: 80px;
-    max-width: 1920px;
+    /* max-width: 1920px; */
     max-height: 959px;
 }
 
 .mapContainer{
     width: 100%;
+     position: relative;
 
 }
 
 .mapImage{
     width: 100%;
+    object-fit: cover;
 }
+
 .submitRequest {
     position: absolute;
-    top: 0;
+    top: -10%;
     left: 50%;
     transform: translateX(-50%);
     max-width: 1271px;
@@ -94,4 +97,55 @@
 .textarea {
     width: 100%; /* Keeps the textarea aligned with input rows */
     min-height: 150px;
+}
+
+@media (max-width:1355px) {
+    .submitRequest {
+    max-width: 851px;
+}
+
+.request_section {
+    padding: 18px 0;
+}
+
+}
+
+@media (max-width:905px) {
+    .submitRequest {
+    max-width: 600px;
+      top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+}
+
+@media (max-width:655px) {
+    .submitRequest {
+    max-width: 396px;
+    gap: 16px;
+}
+
+.name {
+    flex-direction: column;
+}
+
+.textarea {
+    width: 100%;
+    min-height: 98px;
+}
+
+}
+
+@media (max-width:459px) {
+    .submitRequest {
+    max-width: 300px;
+    gap: 20px;
+    padding: 20px;
+}
+
+.form_Heading{
+    font-size: 26px;
+}
+
 }

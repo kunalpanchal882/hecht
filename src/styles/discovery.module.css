@@ -20,6 +20,7 @@
     align-items: center;
     justify-content: center;
     gap: 42px;
+        text-align: center;
 }
 
 .discovery_container::before{
@@ -65,4 +66,20 @@
     object-fit: cover;
     max-height: 585.36px;
     height: 100%;
+}
+
+@media (max-width:804px) {
+    .Discovery_overlay_content {
+    max-width: 60%;
+    width: 100%;
+    gap: 30px;
+}
+}
+
+@media (max-width:474px) {
+    .Discovery_overlay_content {
+    max-width: 80%;
+    width: 100%;
+    gap: 19px;
+}
 }

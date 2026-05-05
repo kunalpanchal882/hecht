@@ -13,7 +13,6 @@ const SubmitRequest = () => {
                 alt='map image'
                 className={style.mapImage}
                 />
-            </div>
             <div className={style.submitRequest}>
                     <h1 className={style.form_Heading}>Submit your request</h1>
                 <form className={style.form}>
@@ -24,6 +23,7 @@ const SubmitRequest = () => {
                     </div>
                     <textarea className={style.textarea} name="message" id="message" placeholder='Your Message'></textarea>
                 </form>
+            </div>
             </div>
         </div>
     </div>

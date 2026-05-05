@@ -35,6 +35,11 @@ const Articals = () => {
             Explore our latest articles and updates to <br /> stay ahead with{" "}
             <span className={style.spanheading}>Hecht Contactlinsen <br /> GmbH</span>
           </h2>
+
+          <h2 className={style.reponsive_heading}>
+            Explore our latest articles and updates to stay ahead with{" "}
+            <span className={style.spanheading}>Hecht Contactlinsen <br /> GmbH</span>
+          </h2>
         </div>
         <div className={style.lower}>
           {articleCards.map((card) => (

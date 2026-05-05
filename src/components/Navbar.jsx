@@ -1,13 +1,22 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import styles from '../styles/navbar.module.css'
+import MobileMenu from './MobileMenu'
 
 const Navbar = () => {
+
+   const [menuOpen, setMenuOpen] = useState(false)
+
   return (
+
+    <>
     <nav className={styles.navbar}>
       <div className={styles.navcontainer}>
         <div className={styles.logo_section}>
-          <i className={`ri-menu-2-line ${styles.menuicon}`}></i>
+          <i className={`ri-menu-2-line ${styles.menuicon}`}
+          onClick={() => setMenuOpen(true)}
+          ></i>
 
           <div className={styles.logo}>
             <Image src="/assets/icons/logo.png" alt="" width={44.42} height={34.73}/>
@@ -71,6 +80,12 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+
+     <MobileMenu
+        menuOpen={menuOpen}
+        setMenuOpen={setMenuOpen}
+      />
+    </>
   )
 }
 

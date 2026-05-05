@@ -72,8 +72,12 @@ const Customer = () => {
               />
             </div>
             <div className={style.heading_right_Conatainer}>
-              <h2 className="second_heading">
+              <h2 className={`second_heading ${style.mainheading}`}>
                 Over 2,500 Satisfied Customers <br /> Trust Us
+              </h2>
+
+              <h2 className={`second_heading ${style.reponsive_heading}`}>
+                Over 2,500 Satisfied Customers Trust Us
               </h2>
               <p className="pera">
                 Join the thousands of satisfied opticians who rely on Hecht

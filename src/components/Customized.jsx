@@ -53,7 +53,7 @@ const Customized = () => {
               <i className={`ri-arrow-right-long-line ${style.arrow}`}></i>
             </div>
             <div className={style.card_heading}>
-              <h3>{item.heading}</h3>
+              <h3 className={style.card_heading_header}>{item.heading}</h3>
               <p className={`pera ${style.Customized_card_para}`}>
              {item.para}
               </p>
