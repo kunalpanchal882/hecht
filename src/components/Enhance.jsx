@@ -19,8 +19,8 @@ const Enhance = () => {
           </p>
           <button className="explore_btn">
             <div className="explore_btn_wrapper">
-              <span className="explore_btn_text top">Explore Our Products</span>
-              <span className="explore_btn_text bottom">Let’s Go</span>
+              <span className="explore_btn_text Btntop">Explore Our Products</span>
+              <span className="explore_btn_text Btnbottom">Let’s Go</span>
             </div>
 
             <Image

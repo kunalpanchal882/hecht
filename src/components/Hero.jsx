@@ -1,6 +1,6 @@
-import React from 'react'
-import Image from 'next/image'
-import style from '../styles/hero.module.css'
+import React from "react";
+import Image from "next/image";
+import style from "../styles/hero.module.css";
 
 const Hero = () => {
   return (
@@ -18,19 +18,39 @@ const Hero = () => {
 
             <div className={style.clients_profiles}>
               <div className={style.client_profile}>
-                <Image src="/assets/profile/header_client_profile.png" width={100} height={100} alt="" />
+                <Image
+                  src="/assets/profile/header_client_profile.png"
+                  width={100}
+                  height={100}
+                  alt=""
+                />
               </div>
 
               <div className={style.client_profile}>
-                <Image src="/assets/profile/header_client_profile_1.png" width={50} height={50} alt="" />
+                <Image
+                  src="/assets/profile/header_client_profile_1.png"
+                  width={50}
+                  height={50}
+                  alt=""
+                />
               </div>
 
               <div className={style.client_profile}>
-                <Image src="/assets/profile/header_client_profile_2.png" width={50} height={50} alt="" />
+                <Image
+                  src="/assets/profile/header_client_profile_2.png"
+                  width={50}
+                  height={50}
+                  alt=""
+                />
               </div>
 
               <div className={style.client_profile}>
-                <Image src="/assets/profile/header_client_profile_3.png" width={50} height={50} alt="" />
+                <Image
+                  src="/assets/profile/header_client_profile_3.png"
+                  width={50}
+                  height={50}
+                  alt=""
+                />
               </div>
 
               <div className={`${style.client_profile} ${style.tenk_circle}`}>
@@ -40,50 +60,76 @@ const Hero = () => {
           </div>
 
           <div className={style.arrow}>
-            <Image src="/assets/icons/twisted_arrow.png" width={273} height={100} alt="" />
+            <Image
+              src="/assets/icons/twisted_arrow.png"
+              width={273}
+              height={100}
+              alt=""
+            />
           </div>
         </div>
 
         <div className={style.explore_contaier}>
           <p className={style.explore_para}>
-            Experience the perfect fit and clarity with our customized contact lenses
+            Experience the perfect fit and clarity with our customized contact
+            lenses
           </p>
 
-          <button className={style.explore_btn}>
-            <div className={style.explore_btn_wrapper}>
-              <span className={`${style.explore_btn_text} ${style.top}`}>
-                Explore Our Products
-              </span>
-              <span className={`${style.explore_btn_text} ${style.bottom}`}>
-                Let’s Go
-              </span>
+          <button className="explore_btn">
+            <div className="explore_btn_wrapper">
+              <span className="explore_btn_text Btntop">Explore Our Products</span>
+              <span className="explore_btn_text Btnbottom">Let’s Go</span>
             </div>
 
-            <Image src="/assets/icons/arrow.png" width={21} height={14} alt="" />
+            <Image
+              src="/assets/icons/arrow.png"
+              width={21}
+              height={14}
+              alt=""
+            />
           </button>
         </div>
 
         <div className={style.socialmedia_icons}>
           <div className={`${style.socialmedia_icon} ${style.active}`}>
-            <Image src="/assets/icons/ri_facebook-fill.png" width={100} height={100} alt="facebook" />
+            <Image
+              src="/assets/icons/ri_facebook-fill.png"
+              width={100}
+              height={100}
+              alt="facebook"
+            />
           </div>
 
           <div className={style.socialmedia_icon}>
-            <Image src="/assets/icons/instagram2.png" width={100} height={100} alt="instagram" />
+            <Image
+              src="/assets/icons/instagram2.png"
+              width={100}
+              height={100}
+              alt="instagram"
+            />
           </div>
 
           <div className={style.socialmedia_icon}>
-            <Image src="/assets/icons/linkdin.png" width={100} height={100} alt="linkdin" />
+            <Image
+              src="/assets/icons/linkdin.png"
+              width={100}
+              height={100}
+              alt="linkdin"
+            />
           </div>
 
           <div className={style.socialmedia_icon}>
-            <Image src="/assets/icons/twitter.png" width={100} height={100} alt="twitter" />
+            <Image
+              src="/assets/icons/twitter.png"
+              width={100}
+              height={100}
+              alt="twitter"
+            />
           </div>
         </div>
-
       </section>
     </header>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
