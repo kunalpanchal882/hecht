@@ -14,7 +14,7 @@ const MobileMenu = ({ menuOpen, setMenuOpen }) => {
               <Image
                 src="/assets/icons/logo.png"
                 alt="logo"
-                width={40}
+                width={50}
                 height={40}
               />
               <div className={style.logo_icon}></div>

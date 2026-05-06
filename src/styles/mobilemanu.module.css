@@ -27,10 +27,15 @@
 
 .logo {
   width: 44.42px;
-  height: 34.73px;
+  height: 44.42px;
   display: flex;
   gap: 4px;
   position: relative;
+}
+
+.logo_in_mobile{
+  display: flex;
+  gap: 20px;
 }
 
 .logo_icon {
@@ -47,7 +52,7 @@
 .logo_text {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 5px;
 }
 
 .logo_header {
@@ -60,16 +65,21 @@
   gap: 4px;
 }
 
-.logo_para .single_logo_para:nth-child(9) {
+.single_logo_para img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.single_logo_para:nth-child(9) {
   margin-left: 10px;
 }
 
-.logo_para .single_logo_para:nth-child(11) {
+.single_logo_para:nth-child(11) {
   width: 5.72px;
   height: 9.27px;
 }
 
-.logo_para .single_logo_para:nth-child(12) {
+.single_logo_para:nth-child(12) {
   width: 5.72px;
   height: 9.27px;
 }
@@ -132,20 +142,19 @@
   flex-direction: column;
 }
 
-.mobile_view_container .logo_section {
+.logo_section {
   display: flex;
   justify-content: space-between;
   width: 100%;
   padding: 12px 30px;
 }
 
-.mobile_view_container .logo_section .logo_in_mobile .logo_icon {
+.logo_icon {
   position: absolute;
   top: 50%;
   left: 50%;
 }
-
-.mobile_view_container .route_pagaes {
+.route_pagaes {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -154,8 +163,12 @@
   height: 100%;
 }
 
-.mobile_view_container .route_pagaes a {
+.route_pagaes a {
   font-size: 30px;
+}
+
+.route_pagaes a:hover{
+  color: var(--button_bg-color);
 }
 
 .mobile_view {

@@ -286,16 +286,16 @@ const Fotter = () => {
                 </div>
                 <div className={style.fotter_socials}>
                   <a href="#" aria-label="Facebook">
-                    <i class="ri-facebook-fill"></i>
+                    <i className="ri-facebook-fill"></i>
                   </a>
                   <a href="#" aria-label="Instagram">
-                    <i class="ri-instagram-fill"></i>
+                    <i className="ri-instagram-fill"></i>
                   </a>
                   <a href="#" aria-label="LinkedIn">
-                    <i class="ri-linkedin-box-fill"></i>
+                    <i className="ri-linkedin-box-fill"></i>
                   </a>
                   <a href="#" aria-label="Twitter">
-                    <i class="ri-twitter-fill"></i>
+                    <i className="ri-twitter-fill"></i>
                   </a>
                 </div>
               </div>

@@ -5,6 +5,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className={style.about_section}>
+      
       <div className={style.about_background}>
         <Image
           src="/image/background_2.png"
